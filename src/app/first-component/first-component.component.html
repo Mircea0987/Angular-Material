@@ -1,0 +1,30 @@
+<button mat-raised-button color="warn">Warn</button>
+<div class="example-button-row">
+  <div class="example-flex-container">
+    <div class="example-button-container">
+      <button
+        mat-mini-fab
+        color="primary"
+        aria-label="Example icon button with a menu icon"
+      >
+        <mat-icon>menu</mat-icon>
+      </button>
+    </div>
+  </div>
+</div>
+<div class="demo-section">
+  Button toggles badge visibility
+  <button
+    mat-raised-button
+    matBadgePosition="after"
+    matBadge="7"
+    [matBadgeHidden]="hidden"
+    (click)="toggleBadgeVisibility()"
+  >
+    Hide
+  </button>
+</div>
+<div>
+  <button (click)="loadData()">Load Data</button>
+  <mat-spinner *ngIf="showSpinner"></mat-spinner>
+</div>
