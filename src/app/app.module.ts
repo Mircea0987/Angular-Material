@@ -13,9 +13,15 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { FirstComponentComponent } from './first-component/first-component.component';
 import { SecondComponentComponent } from './second-component/second-component.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, FirstComponentComponent, SecondComponentComponent],
+  declarations: [
+    AppComponent,
+    NavbarComponent,
+    FirstComponentComponent,
+    SecondComponentComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -27,6 +33,7 @@ import { SecondComponentComponent } from './second-component/second-component.co
     MatSidenavModule,
     MatIconModule,
     MatListModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

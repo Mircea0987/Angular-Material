@@ -4,6 +4,7 @@ import { FirstComponentComponent } from './first-component/first-component.compo
 import { SecondComponentComponent } from './second-component/second-component.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: 'main', pathMatch: 'full' },
   { path: 'main', component: FirstComponentComponent },
   { path: 'second', component: SecondComponentComponent },
 ];

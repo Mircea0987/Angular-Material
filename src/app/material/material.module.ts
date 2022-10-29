@@ -7,6 +7,10 @@ import { MatBadgeModule } from '@angular/material/badge';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatTableModule } from '@angular/material/table';
 import { MatCardModule } from '@angular/material/card';
+import { MatExpansionModule } from '@angular/material/expansion';
+import { MatStepperModule } from '@angular/material/stepper';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 const MaterialComponents = [
   MatButtonModule,
@@ -16,6 +20,10 @@ const MaterialComponents = [
   MatProgressSpinnerModule,
   MatTableModule,
   MatCardModule,
+  MatExpansionModule,
+  MatStepperModule,
+  MatFormFieldModule,
+  MatInputModule,
 ];
 
 @NgModule({
